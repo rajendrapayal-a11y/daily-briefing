@@ -1,0 +1,15 @@
+# Edit this file only. Everything else runs by itself.
+title: "My AI Daily Briefing"
+model: "gemini-2.5-flash"      # free tier model
+hours_back: 26                 # how far back to look for items
+max_items_per_feed: 8
+feeds:
+  - name: Hacker News (top)
+    url: https://hnrss.org/frontpage?points=150
+  - name: BBC Technology
+    url: https://feeds.bbci.co.uk/news/technology/rss.xml
+  - name: The Hindu - Technology
+    url: https://www.thehindu.com/sci-tech/technology/feeder/default.rss
+  - name: arXiv cs.AI
+    url: http://export.arxiv.org/rss/cs.AI
+interests: "AI, startups, open source, India tech, science"
